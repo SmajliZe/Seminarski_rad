@@ -63,7 +63,7 @@ body{
 
 .products {
     max-width: 95%;
-    height: 105rem;
+    height: 110rem;
 }
 
 .heading {
@@ -78,7 +78,6 @@ body{
     grid-template-columns: repeat(3, 35%);
     color: beige;
     max-width: 100%;
-    height: 30rem;
     
 }
 
@@ -91,7 +90,9 @@ body{
     background-color: black;
     
 }
-
+.card-title {
+    text-align: center;
+}
 .card-body {
     padding-top: 1rem;
     font-size: 1.5rem;
@@ -117,4 +118,15 @@ body{
 }
 
 
+.add {
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: rgb(255, 136, 0);
+    padding: 3rem;
+    font-size: 3rem;
+    color:white
+}
 
