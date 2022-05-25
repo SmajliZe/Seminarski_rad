@@ -61,3 +61,46 @@ body{
     padding-left: 90rem;
 }
 
+.products {
+    max-width: 95%;
+    height: 105rem;
+}
+
+.heading {
+    color: rgb(0, 0, 0); 
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 35%);
+    color: beige;
+    max-width: 100%;
+    height: 30rem;
+    
+}
+
+.card{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(255, 136, 0);
+    margin: 2rem;
+    background-color: black;
+    
+}
+
+.card-body {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+}
+
+
