@@ -111,4 +111,10 @@ body{
     font-weight: bold;
 }
 
+.btn {
+    background-color: rgb(255, 136, 0);
+    font-size: 2rem;
+}
+
+
 

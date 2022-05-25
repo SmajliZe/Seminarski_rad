@@ -20,6 +20,7 @@ fetch('https://ptf-web-dizajn-2022.azurewebsites.net/api/Cars')
             <h1 class="card-title">${car.name}</h1>
             <p> ${car.manufacturer}</p>
             <p>Price: ${car.price} KM</p>
+            <button type="button" class="btn" onclick="deleteCARS(${car.id})"> Delete </button>
             </div>
         </div>
         `;
@@ -27,3 +28,14 @@ fetch('https://ptf-web-dizajn-2022.azurewebsites.net/api/Cars')
   containerList.innerHTML = resultHtml;
 }
 
+const deleteCARS = (id) => {
+    fetch(`https://ptf-web-dizajn-2022.azurewebsites.net/api/Cars/${id}`, {
+      method: 'DELETE'
+    })
+    .then(res => {
+      console.log(res);
+    })
+  }
+  
+
+  
