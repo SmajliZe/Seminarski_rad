@@ -103,4 +103,12 @@ body{
     height: 70%;
 }
 
+.credit{
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
 
