@@ -130,3 +130,33 @@ body{
     color:white
 }
 
+@media only screen and (max-width:400px){
+html{
+        font-size: 0.2rem;
+}
+
+.header .navbar a{
+        margin-right: 10rem;
+}
+
+.header .logo {
+        margin-left: 10rem;
+}
+
+.home{
+        width: 130rem;
+}
+
+.products {
+      min-width: 100rem;
+      height: 100rem;
+      padding-left: 10rem;
+}
+
+.content h1{
+    padding-left: 0rem;
+}
+
+.content h2{
+    padding-left: 00rem;
+}
